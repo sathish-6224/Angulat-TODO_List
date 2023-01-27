@@ -1,0 +1,6 @@
+<form action="task_form">
+<input class="form-control" type="text" name="new" id="newTask" [(ngModel)]="newTask" placeholder="Enter Your Daily Task...">
+<button class="btn btn-outline-primary my-3"[disabled]="newTask==null" (click)="addTodo()" type="submit">Add Task</button>
+</form>
+
+
